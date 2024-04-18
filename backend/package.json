@@ -24,6 +24,9 @@
       "pre-commit": "npm run test && npm run prettier-format && npm run lint"
     }
   },
+  "prisma": {
+    "seed": "ts-node prisma/seed.ts"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
